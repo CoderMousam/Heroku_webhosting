@@ -11,5 +11,5 @@ app.listen(port, () =>{
     console.log('listening to the port at' ,{port})
 })
 app.get('/', function (req, res) {
-    res.render('/index.js', {});
-  });
+    res.header('Content-Type', 'text/html').send("Deployed first app in heroku:Mousam");
+ });
