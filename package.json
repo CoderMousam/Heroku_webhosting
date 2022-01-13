@@ -10,7 +10,10 @@
   "author": "Mousam",
   "license": "ISC",
   "dependencies": {
+    "assert": "^2.0.0",
     "express": "^4.17.2",
-    "hbs": "^4.2.0"
+    "hbs": "^4.2.0",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0"
   }
 }
